@@ -56,7 +56,7 @@ color: #757575;
 background-color: #2F303A;
  }
 .footer-logo{
-font-family: Raleway;
+font-family: Raleway,sans-serif;
 font-weight: 700;
 font-size: 26px;
 line-height: 31px;
@@ -75,4 +75,36 @@ color: #2196F3;
 }
 .address-link{
 color: rgba(255, 255, 255, 0.6);
+}
+/* PORTFOLIO */
+.button:hover,:focus{
+ color:  #FFFFFF;
+ background: #2196F3;
+}
+.button{
+font-family: Roboto,sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121 ;
+background: #F5F4FA ;
+
+}
+.card-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+
+}
+.card-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+
 }
