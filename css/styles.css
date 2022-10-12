@@ -42,7 +42,8 @@ letter-spacing: 0.02em;
 color: #212121;
 
  }
- .link:hover,:focus{
+ .link:hover,
+ .link:focus{
    color:#2196F3 ; 
  }
  .contact{
@@ -81,14 +82,17 @@ letter-spacing: 0.03em;
 .location-link{
 color: rgba(255, 255, 255, 0.6);
 }
-.location-address:hover,:focus{
+.location-address:hover,
+.location-address:focus{
 color: #2196F3;
 }
-.location-link:hover,:focus{
+.location-link:hover,
+.location-link:focus{
 color: #2196F3;
 }
 /* PORTFOLIO */
-.key:hover,:focus{
+.key:hover,
+.key:focus{
  color:  #FFFFFF;
  background: #2196F3;
 }
