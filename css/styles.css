@@ -8,11 +8,12 @@ font-weight: 400;500;700
 
  */
 
- .main{
+ .basic{
     background-color: #FFFFFF;
     font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: 400;
+    color: #757575;
  }
  /* HEADER */
  a{
@@ -25,7 +26,7 @@ font-weight: 400;500;700
 font-family: Raleway,sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 color: #2196F3;
 
@@ -36,7 +37,7 @@ color: #2196F3;
  .nav-list{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 color: #212121;
 
@@ -47,55 +48,66 @@ color: #212121;
  .contact{
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.1;
 letter-spacing: 0.02em;
 color: #757575;
  }
  /* FOOTER */
- .footer{
+ .ground{
 background-color: #2F303A;
  }
-.footer-logo{
+.ground-logo{
 font-family: Raleway,sans-serif;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: #2196F3;
 }
-.address{
+.ground-logo-part{
+   color:#FFFFFF;
+}
+.location{
 font-style: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 
 }
-.address-location{
-color: #2196F3;
+.location-address{
+   color:#FFFFFF;
+ 
 }
-.address-link{
+.location-link{
 color: rgba(255, 255, 255, 0.6);
 }
+.location-address:hover,:focus{
+color: #2196F3;
+}
+.location-link:hover,:focus{
+color: #2196F3;
+}
 /* PORTFOLIO */
-.button:hover,:focus{
+.key:hover,:focus{
  color:  #FFFFFF;
  background: #2196F3;
 }
-.button{
+.key{
 font-family: Roboto,sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 26px;
+line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121 ;
-background: #F5F4FA ;
+color: #212121;
+background: #F5F4FA;
+cursor: pointer;
 
 }
 .card-title{
 font-weight: 700;
 font-size: 18px;
-line-height: 36px;
+line-height: 2.0;
 letter-spacing: 0.06em;
 color: #212121;
 
@@ -103,8 +115,22 @@ color: #212121;
 .card-text{
 font-weight: 400;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.9;
 letter-spacing: 0.03em;
 color: #757575;
 
+}
+
+/* BODY */
+.visually-hidden{ */
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;
 }
