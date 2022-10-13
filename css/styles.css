@@ -138,3 +138,94 @@ clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
 }
+.hero{
+   background-color: #2F303A;
+}
+.hero-title{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.hero-key{
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color:#2196F3 ;
+}
+.benefits-title{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.1;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.benefits-text{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.work-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.about{
+background-color:#F5F4FA;
+}
+.about-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.card{
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+.card-title{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.card-text{
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.foto-desinger{
+background: url(4853.jpg);
+border-radius: 0px;
+}
+.foto-developer{
+background: url(5844.jpg);
+border-radius: 0px;
+}
+.foto-marketing{
+background: url(16166.jpg);
+border-radius: 0px;
+}
+.foto-uidesigner{
+background: url(2968);
+border-radius: 0px;
+}
