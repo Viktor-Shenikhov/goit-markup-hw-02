@@ -21,6 +21,7 @@ font-weight: 400;500;700
  /* HEADER */
  a{
     text-decoration: none;
+    
     }
  ul{
     list-style: none;
@@ -43,10 +44,13 @@ font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
 color: var(--title-color);
-
  }
- .link:hover,
- .link:focus{
+ .link{
+   color:var(--title-color);
+ }
+ 
+ .link:hover, 
+ .link:focus{ 
    color:#2196F3 ; 
  }
  .contact{
@@ -161,7 +165,8 @@ align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
-background-color:#2196F3 ;
+background-color:#2196F3;
+display: flex;
 }
 .benefits-title{
 font-weight: 700;
