@@ -7,13 +7,16 @@ font-style: normal;
 font-weight: 400;500;700
 
  */
-
+:root{
+   --primary-text-color:#757575;
+   --title-color:#212121;
+}
  .basic{
     background-color: #FFFFFF;
     font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: 400;
-    color: #757575;
+    color: var(--primary-text-color);
  }
  /* HEADER */
  a{
@@ -39,7 +42,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
-color: #212121;
+color: var(--title-color);
 
  }
  .link:hover,
@@ -51,7 +54,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--primary-text-color);
  }
  /* FOOTER */
  .ground{
@@ -113,7 +116,7 @@ font-weight: 700;
 font-size: 18px;
 line-height: 2.0;
 letter-spacing: 0.06em;
-color: #212121;
+color: var(--title-color);
 
 }
 .card-text{
@@ -121,7 +124,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 
 }
 
@@ -166,13 +169,13 @@ font-size: 14px;
 line-height: 1.1;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #212121;
+color: var(--title-color);
 }
 .benefits-text{
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 }
 .work-title{
 font-weight: 700;
@@ -180,7 +183,7 @@ font-size: 36px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-color);
 }
 .about{
 background-color:#F5F4FA;
@@ -191,7 +194,7 @@ font-size: 36px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-color);
 }
 .card{
 background: #FFFFFF;
@@ -204,14 +207,14 @@ font-size: 16px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+color: var(--title-color);
 }
 .card-text{
 font-size: 16px;
 line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--primary-text-color);
 }
 .foto-desinger{
 background: url(4853.jpg);
